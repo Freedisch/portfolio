@@ -2,10 +2,15 @@
 // import Image from "next/image";
 // import styles from "../styles/Home.module.css";
 import Typewriter from "typewriter-effect";
+import Header from "./components/Header";
 
 export default function Home() {
   return (
-    <div className="grid items-center justify-center h-screen">
+    <div>
+      <div>
+        <Header />
+      </div>
+      <div className="grid items-center justify-center h-screen">
       <div className="">
         <h1 className="font-mono"> Hello, I`m</h1>
         <h1 className="font-bold text-5xl">
@@ -31,6 +36,7 @@ export default function Home() {
           while waiting
         </p>
       </div>
+    </div>
     </div>
   );
 }
