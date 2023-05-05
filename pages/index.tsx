@@ -9,6 +9,9 @@ import Header from "./components/Header";
 import Link from "next/link";
 import Image from "next/image";
 import testimage from "../public/saitama.png";
+import hackimage from "../public/original.jpg"
+import onlineimage from "../public/Screenshot (252).png"
+import oppimage from "../public/Screenshot 2023-05-05 164148.png"
 export default function Home() {
   return (
     <div className="w-full max-w-3xl mx-auto mb-28 px-4">
@@ -189,8 +192,7 @@ export default function Home() {
             </h1>
             <div className="text-sm">
               <p className="my-5">
-                an undergraduate student at African Leadership University with a
-                major in <b>Software Enginnering</b>
+                an undergraduate student at African Leadership University in <b>Software Enginnering</b>
               </p>
               <p className="my-5">
                 I build and unintentionally break things (which I eventually fix
@@ -304,10 +306,10 @@ export default function Home() {
             <div>
               <div className="content-card my-5 px-4 py-5 border-2 border-blue-500 shadow-lg hover:border-purple-500 hover:shadow-2xl">
                 <div className="text-lg font-bold mb-1">
-                  Software Development Intern
+                  Community Engager Volunteer 
                 </div>
                 <a
-                  href="https://jp.mercari.com/"
+                  href="https://www.trywilco.com/"
                   target="_blank"
                   rel="noreferrer"
                   className="linkstyle flex text-black text-sm w-fit mb-1 space-x-2"
@@ -327,7 +329,7 @@ export default function Home() {
                       d="M2.25 21h19.5m-18-18v18m10.5-18v18m6-13.5V21M6.75 6.75h.75m-.75 3h.75m-.75 3h.75m3-6h.75m-.75 3h.75m-.75 3h.75M6.75 21v-3.375c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21M3 3h12m-.75 4.5H21m-3.75 3.75h.008v.008h-.008v-.008zm0 3h.008v.008h-.008v-.008zm0 3h.008v.008h-.008v-.008z"
                     ></path>
                   </svg>
-                  <div>Mercari, Inc</div>
+                  <div>Wilco</div>
                 </a>
                 <div className="flex flex-col-reverse sm:flex-row sm:justify-between text-sm text-gray-500">
                   <div className=" flex items-center space-x-2 mb-1">
@@ -348,11 +350,11 @@ export default function Home() {
                         ></path>
                       </svg>
                     </div>
-                    <div>May 2022 - Sept 2022</div>
+                    <div>March 2023 - Present</div>
                   </div>
                   <a
                     className="linkstyle w-fit flex space-x-2 items-center mb-1"
-                    href="https://engineering.mercari.com/en/blog/entry/20220930-building-secure-apps-using-web-workers/"
+                    href="https://twitter.com/trywilco/status/1638894431313993728?s=20"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -373,33 +375,42 @@ export default function Home() {
                         ></path>
                       </svg>
                     </div>
-                    <div>Blog on building secure web apps</div>
+                    <div>Annonce of new Wilco ambassador</div>
                   </a>
                 </div>
                 <div className="text-sm mt-2 text-gray-600">
                   <p className="my-1">
-                    - Worked on the authentication module to secure the access
-                    tokens from various attacks using Web Workers. 👮‍♂️
+                    - Assist wilco users on a weekly basis and worked along with the wilco team to grow their developer community. 👮‍♂️
                   </p>
                   <p className="my-1">
-                    - Refactored the social auth with Apple &amp; Google to make
-                    them more snappy &amp; performant. 🎉
+                    - Worked with CEO to organize the discord community and create different activities to increase users engagement. 🎉
                   </p>
                   <p className="my-1">
-                    - Built internal workflows and spinnaker pipelines to enable
-                    custom domain in local env. (with TLS). It enabled us to
-                    test some products in the local development environment and
-                    improve developers' productivity 🙂.
+                    - Provided feedback on the SDK and different quests. 🙂.
                   </p>
                 </div>
               </div>
 
+
+              
+              
+            </div>
+             
+
+              
+
+             
+          </div>
+
+          <div id="experience">
+            <h2 className="mt-8 mb-4 text-2xl font-bold">Open Source Contributions</h2>
+            <div>
               <div className="content-card my-5 px-4 py-5 border-2 border-blue-500 shadow-lg hover:border-purple-500 hover:shadow-2xl">
                 <div className="text-lg font-bold mb-1">
-                  Software Development Intern
+                  Contributor
                 </div>
                 <a
-                  href="https://jp.mercari.com/"
+                  href="https://owasp.org/www-project-juice-shop/"
                   target="_blank"
                   rel="noreferrer"
                   className="linkstyle flex text-black text-sm w-fit mb-1 space-x-2"
@@ -419,7 +430,7 @@ export default function Home() {
                       d="M2.25 21h19.5m-18-18v18m10.5-18v18m6-13.5V21M6.75 6.75h.75m-.75 3h.75m-.75 3h.75m3-6h.75m-.75 3h.75m-.75 3h.75M6.75 21v-3.375c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21M3 3h12m-.75 4.5H21m-3.75 3.75h.008v.008h-.008v-.008zm0 3h.008v.008h-.008v-.008zm0 3h.008v.008h-.008v-.008z"
                     ></path>
                   </svg>
-                  <div>Mercari, Inc</div>
+                  <div>OWASP Fundation</div>
                 </a>
                 <div className="flex flex-col-reverse sm:flex-row sm:justify-between text-sm text-gray-500">
                   <div className=" flex items-center space-x-2 mb-1">
@@ -440,58 +451,30 @@ export default function Home() {
                         ></path>
                       </svg>
                     </div>
-                    <div>May 2022 - Sept 2022</div>
+                    <div>December 2022 - Present</div>
                   </div>
-                  <a
-                    className="linkstyle w-fit flex space-x-2 items-center mb-1"
-                    href="https://engineering.mercari.com/en/blog/entry/20220930-building-secure-apps-using-web-workers/"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <div>
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        fill="none"
-                        viewBox="0 0 24 24"
-                        stroke-width="1.5"
-                        stroke="currentColor"
-                        aria-hidden="true"
-                        className="w-4"
-                      >
-                        <path
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25"
-                        ></path>
-                      </svg>
-                    </div>
-                    <div>Blog on building secure web apps</div>
-                  </a>
+                  
                 </div>
                 <div className="text-sm mt-2 text-gray-600">
                   <p className="my-1">
-                    - Worked on the authentication module to secure the access
-                    tokens from various attacks using Web Workers. 👮‍♂️
+                    - Migrated frontend to angular 15 🤖<a href="https://github.com/juice-shop/juice-shop/pull/1942" className="text-blue-600">PR Link</a>
                   </p>
                   <p className="my-1">
-                    - Refactored the social auth with Apple &amp; Google to make
-                    them more snappy &amp; performant. 🎉
+                    - Integrated fly fliter allowing users to filter to any challenges and fixed unit test error <a href="https://github.com/juice-shop/juice-shop/pull/1998" className="text-blue-600">PR Link</a>.
                   </p>
                   <p className="my-1">
-                    - Built internal workflows and spinnaker pipelines to enable
-                    custom domain in local env. (with TLS). It enabled us to
-                    test some products in the local development environment and
-                    improve developers' productivity 🙂.
+                    - Added empty user registation challenge for ctf player. <a href=""className="text-blue-600">PR Link</a>.
                   </p>
                 </div>
               </div>
 
+
               <div className="content-card my-5 px-4 py-5 border-2 border-blue-500 shadow-lg hover:border-purple-500 hover:shadow-2xl">
                 <div className="text-lg font-bold mb-1">
-                  Software Development Intern
+                  Contributor 
                 </div>
                 <a
-                  href="https://jp.mercari.com/"
+                  href="https://meshery.io/"
                   target="_blank"
                   rel="noreferrer"
                   className="linkstyle flex text-black text-sm w-fit mb-1 space-x-2"
@@ -511,7 +494,7 @@ export default function Home() {
                       d="M2.25 21h19.5m-18-18v18m10.5-18v18m6-13.5V21M6.75 6.75h.75m-.75 3h.75m-.75 3h.75m3-6h.75m-.75 3h.75m-.75 3h.75M6.75 21v-3.375c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21M3 3h12m-.75 4.5H21m-3.75 3.75h.008v.008h-.008v-.008zm0 3h.008v.008h-.008v-.008zm0 3h.008v.008h-.008v-.008z"
                     ></path>
                   </svg>
-                  <div>Mercari, Inc</div>
+                  <div>Meshery</div>
                 </a>
                 <div className="flex flex-col-reverse sm:flex-row sm:justify-between text-sm text-gray-500">
                   <div className=" flex items-center space-x-2 mb-1">
@@ -532,145 +515,29 @@ export default function Home() {
                         ></path>
                       </svg>
                     </div>
-                    <div>May 2022 - Sept 2022</div>
+                    <div>March 2023 - Present</div>
                   </div>
-                  <a
-                    className="linkstyle w-fit flex space-x-2 items-center mb-1"
-                    href="https://engineering.mercari.com/en/blog/entry/20220930-building-secure-apps-using-web-workers/"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <div>
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        fill="none"
-                        viewBox="0 0 24 24"
-                        stroke-width="1.5"
-                        stroke="currentColor"
-                        aria-hidden="true"
-                        className="w-4"
-                      >
-                        <path
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25"
-                        ></path>
-                      </svg>
-                    </div>
-                    <div>Blog on building secure web apps</div>
-                  </a>
+
                 </div>
                 <div className="text-sm mt-2 text-gray-600">
                   <p className="my-1">
-                    - Worked on the authentication module to secure the access
-                    tokens from various attacks using Web Workers. 👮‍♂️
+                    - Working on changing api docs generation from swagger to redoclys <a href="https://github.com/meshery/meshery/pull/7534" className="text-blue-600">PR Link</a>
                   </p>
                   <p className="my-1">
-                    - Refactored the social auth with Apple &amp; Google to make
-                    them more snappy &amp; performant. 🎉
+                    - Working on fixing end2end cypress test.<a href="https://github.com/meshery/meshery/pull/7658" className="text-blue-600">PR Link</a>
                   </p>
                   <p className="my-1">
-                    - Built internal workflows and spinnaker pipelines to enable
-                    custom domain in local env. (with TLS). It enabled us to
-                    test some products in the local development environment and
-                    improve developers' productivity 🙂.
+                    - Helped newcomers integrate the community. 🙂.
                   </p>
                 </div>
               </div>
 
-              <div className="content-card my-5 px-4 py-5 border-2 border-blue-500 shadow-lg hover:border-purple-500 hover:shadow-2xl">
-                <div className="text-lg font-bold mb-1">
-                  Software Development Intern
-                </div>
-                <a
-                  href="https://jp.mercari.com/"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="linkstyle flex text-black text-sm w-fit mb-1 space-x-2"
-                >
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke-width="1.5"
-                    stroke="currentColor"
-                    aria-hidden="true"
-                    className="w-4"
-                  >
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      d="M2.25 21h19.5m-18-18v18m10.5-18v18m6-13.5V21M6.75 6.75h.75m-.75 3h.75m-.75 3h.75m3-6h.75m-.75 3h.75m-.75 3h.75M6.75 21v-3.375c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21M3 3h12m-.75 4.5H21m-3.75 3.75h.008v.008h-.008v-.008zm0 3h.008v.008h-.008v-.008zm0 3h.008v.008h-.008v-.008z"
-                    ></path>
-                  </svg>
-                  <div>Mercari, Inc</div>
-                </a>
-                <div className="flex flex-col-reverse sm:flex-row sm:justify-between text-sm text-gray-500">
-                  <div className=" flex items-center space-x-2 mb-1">
-                    <div>
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        fill="none"
-                        viewBox="0 0 24 24"
-                        stroke-width="1.5"
-                        stroke="currentColor"
-                        aria-hidden="true"
-                        className="w-4"
-                      >
-                        <path
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 012.25-2.25h13.5A2.25 2.25 0 0121 7.5v11.25m-18 0A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75m-18 0v-7.5A2.25 2.25 0 015.25 9h13.5A2.25 2.25 0 0121 11.25v7.5m-9-6h.008v.008H12v-.008zM12 15h.008v.008H12V15zm0 2.25h.008v.008H12v-.008zM9.75 15h.008v.008H9.75V15zm0 2.25h.008v.008H9.75v-.008zM7.5 15h.008v.008H7.5V15zm0 2.25h.008v.008H7.5v-.008zm6.75-4.5h.008v.008h-.008v-.008zm0 2.25h.008v.008h-.008V15zm0 2.25h.008v.008h-.008v-.008zm2.25-4.5h.008v.008H16.5v-.008zm0 2.25h.008v.008H16.5V15z"
-                        ></path>
-                      </svg>
-                    </div>
-                    <div>May 2022 - Sept 2022</div>
-                  </div>
-                  <a
-                    className="linkstyle w-fit flex space-x-2 items-center mb-1"
-                    href="https://engineering.mercari.com/en/blog/entry/20220930-building-secure-apps-using-web-workers/"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <div>
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        fill="none"
-                        viewBox="0 0 24 24"
-                        stroke-width="1.5"
-                        stroke="currentColor"
-                        aria-hidden="true"
-                        className="w-4"
-                      >
-                        <path
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25"
-                        ></path>
-                      </svg>
-                    </div>
-                    <div>Blog on building secure web apps</div>
-                  </a>
-                </div>
-                <div className="text-sm mt-2 text-gray-600">
-                  <p className="my-1">
-                    - Worked on the authentication module to secure the access
-                    tokens from various attacks using Web Workers. 👮‍♂️
-                  </p>
-                  <p className="my-1">
-                    - Refactored the social auth with Apple &amp; Google to make
-                    them more snappy &amp; performant. 🎉
-                  </p>
-                  <p className="my-1">
-                    - Built internal workflows and spinnaker pipelines to enable
-                    custom domain in local env. (with TLS). It enabled us to
-                    test some products in the local development environment and
-                    improve developers' productivity 🙂.
-                  </p>
-                </div>
-              </div>
+
+              
+              
             </div>
           </div>
+
           <div id="projects">
             <h2 className="mt-8 mb-4 text-2xl font-bold">Projects</h2>
             <div>
@@ -678,7 +545,7 @@ export default function Home() {
                 <div className="col-span-3 h-full w-full prose-img:my-0">
                   <Image
                     alt="SigmaFit"
-                    src={testimage}
+                    src={hackimage}
                     width="1400"
                     height="800"
                     decoding="async"
@@ -690,26 +557,19 @@ export default function Home() {
 
                 <div className="col-span-5 px-4 py-5">
                   <a
-                    href="https://subhamx.hashnode.dev/planetscale-hackathon-sigmafit-workout-tracking-app"
+                    href="https://devpost.com/software/ai-coach"
                     target="_blank"
                     className="mb-1 text-lg text-gray-600 hover:text-blue-700 font-bold"
                     rel="noreferrer"
                   >
                     <span className="border-b border-dashed hover:border-solid border-b-gray-300">
-                      SigmaFit
+                      All in Hackathon (AICoach)
                     </span>
                   </a>
-                  <div className="text-sm mt-1">Next.js｜Node.js</div>
+                  <div className="text-sm mt-1">React｜ Node.js | GPT API | Twilio</div>
                   <div className="text-sm text-gray-600">
                     <p className="last:mb-0 my-1">
-                      - It makes workout tracking very easy. And helps people
-                      with personalized insights to improve your fitness
-                      journey.
-                    </p>
-                    <p className="last:mb-0 my-1">
-                      - Built as part of planetscale hackathon on hashnode; Used
-                      expressjs, Planetscale, and Next.js to build a robust
-                      platform.
+                      - Won the 2nd prize during the 24-hour hackathon organized by Major League Hacking with my project AI-Coach, a platform powered by GPT-3 that sends daily project-based learning via WhatsApp to help you improve your skills.
                     </p>
                   </div>
                 </div>
@@ -719,7 +579,7 @@ export default function Home() {
                 <div className="col-span-3 h-full w-full prose-img:my-0">
                   <Image
                     alt="SigmaFit"
-                    src={testimage}
+                    src={oppimage}
                     width="1400"
                     height="800"
                     decoding="async"
@@ -731,26 +591,22 @@ export default function Home() {
 
                 <div className="col-span-5 px-4 py-5">
                   <a
-                    href="https://subhamx.hashnode.dev/planetscale-hackathon-sigmafit-workout-tracking-app"
+                    href="https://github.com/ALU-Opportunity-Board/opportunity-board"
                     target="_blank"
                     className="mb-1 text-lg text-gray-600 hover:text-blue-700 font-bold"
                     rel="noreferrer"
                   >
                     <span className="border-b border-dashed hover:border-solid border-b-gray-300">
-                      SigmaFit
+                      Opportunity Board
                     </span>
                   </a>
-                  <div className="text-sm mt-1">Next.js｜Node.js</div>
+                  <div className="text-sm mt-1">Typescrit｜React | Tailwind | Redux Toolkit</div>
                   <div className="text-sm text-gray-600">
                     <p className="last:mb-0 my-1">
-                      - It makes workout tracking very easy. And helps people
-                      with personalized insights to improve your fitness
-                      journey.
+                      - Redesign of the previous opportunity from our college made with canavas to improve the user experience with new features.
                     </p>
                     <p className="last:mb-0 my-1">
-                      - Built as part of planetscale hackathon on hashnode; Used
-                      expressjs, Planetscale, and Next.js to build a robust
-                      platform.
+                      - Build the client with react and tailwind css. Used redux toolkit to manage state cross the different components
                     </p>
                   </div>
                 </div>
@@ -760,7 +616,7 @@ export default function Home() {
                 <div className="col-span-3 h-full w-full prose-img:my-0">
                   <Image
                     alt="SigmaFit"
-                    src={testimage}
+                    src={onlineimage}
                     width="1400"
                     height="800"
                     decoding="async"
@@ -772,26 +628,22 @@ export default function Home() {
 
                 <div className="col-span-5 px-4 py-5">
                   <a
-                    href="https://subhamx.hashnode.dev/planetscale-hackathon-sigmafit-workout-tracking-app"
+                    href="https://github.com/Freedisch/Django-app"
                     target="_blank"
                     className="mb-1 text-lg text-gray-600 hover:text-blue-700 font-bold"
                     rel="noreferrer"
                   >
                     <span className="border-b border-dashed hover:border-solid border-b-gray-300">
-                      SigmaFit
+                      Skill Test
                     </span>
                   </a>
-                  <div className="text-sm mt-1">Next.js｜Node.js</div>
+                  <div className="text-sm mt-1">Django | Python</div>
                   <div className="text-sm text-gray-600">
                     <p className="last:mb-0 my-1">
-                      - It makes workout tracking very easy. And helps people
-                      with personalized insights to improve your fitness
-                      journey.
+                      - Platform allowing students to have access to test to evaluate their skills in different subjects.
                     </p>
                     <p className="last:mb-0 my-1">
-                      - Built as part of planetscale hackathon on hashnode; Used
-                      expressjs, Planetscale, and Next.js to build a robust
-                      platform.
+                      - Built with Django with REST framework.
                     </p>
                   </div>
                 </div>
