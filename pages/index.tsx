@@ -276,7 +276,7 @@ export default function Home() {
                 </div>
               </a>
               <a
-                href="https://twitter.com/freedisch9/"
+                href="https://twitter.com/"
                 target="_blank"
                 rel="noreferrer"
               >
