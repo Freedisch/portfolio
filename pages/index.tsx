@@ -12,6 +12,9 @@ import testimage from "../public/saitama.png";
 import hackimage from "../public/original.jpg";
 import onlineimage from "../public/Screenshot (252).png";
 import oppimage from "../public/Screenshot 2023-05-05 164148.png";
+import smarteNote from "../public/mobile.png"
+import smarteNote2 from "../public/mobiletest.png"
+
 export default function Home() {
   return (
     <div className="w-full max-w-3xl mx-auto mb-28 px-4">
@@ -96,7 +99,7 @@ export default function Home() {
         </a>
         <a
           className="linkstyle flex gap-2 items-center"
-          href="https://dev.to/freedisch"
+          href="https://dev.to/freedisch_10/"
           rel="noreferrer"
           target="_blank"
         >
@@ -140,7 +143,7 @@ export default function Home() {
         </a>
         <a
           className="linkstyle flex gap-2 items-center"
-          href="https://docs.google.com/document/d/18mb8frpX6eRtiIqM0KYOIP_7dmXexF1vJM4tcXFudeA/edit?usp=sharing"
+          href="https://drive.google.com/file/d/1lZjnzGDsY5qozBk08rR-HodwUiz9iZmj/view?usp=sharing"
           rel="noreferrer"
           target="_blank"
         >
@@ -226,7 +229,7 @@ export default function Home() {
                 </a>
               </div>
               <a
-                href="https://www.linkedin.com/in/thibaut-freedisch-batale-905843208"
+                href="https://www.linkedin.com/in/magnim-thibaut-batale-905843208/"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -307,10 +310,10 @@ export default function Home() {
             <div>
               <div className="content-card my-5 px-4 py-5 border-2 border-blue-500 shadow-lg hover:border-purple-500 hover:shadow-2xl">
                 <div className="text-lg font-bold mb-1">
-                  Open Source Developer
+                  Software Engineer Intern 
                 </div>
                 <a
-                  href="https://owasp.org/www-project-juice-shop/"
+                  href="https://litmuschaos.io/"
                   target="_blank"
                   rel="noreferrer"
                   className="linkstyle flex text-black text-sm w-fit mb-1 space-x-2"
@@ -330,7 +333,7 @@ export default function Home() {
                       d="M2.25 21h19.5m-18-18v18m10.5-18v18m6-13.5V21M6.75 6.75h.75m-.75 3h.75m-.75 3h.75m3-6h.75m-.75 3h.75m-.75 3h.75M6.75 21v-3.375c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21M3 3h12m-.75 4.5H21m-3.75 3.75h.008v.008h-.008v-.008zm0 3h.008v.008h-.008v-.008zm0 3h.008v.008h-.008v-.008z"
                     ></path>
                   </svg>
-                  <div>OWASP Fundation</div>
+                  <div>Cloud Native Computing Foundation - LitmusChaos</div>
                 </a>
                 <div className="flex flex-col-reverse sm:flex-row sm:justify-between text-sm text-gray-500">
                   <div className=" flex items-center space-x-2 mb-1">
@@ -351,43 +354,32 @@ export default function Home() {
                         ></path>
                       </svg>
                     </div>
-                    <div>December 2022 - Present</div>
+                    <div>Spetember 2023 - December 2024</div>
                   </div>
                 </div>
                 <div className="text-sm mt-2 text-gray-600">
                   <p className="my-1">
-                    - Migrated frontend to angular 15 🤖
-                    <a
-                      href="https://github.com/juice-shop/juice-shop/pull/1942"
-                      className="text-blue-600"
-                    >
-                      PR Link
-                    </a>
+                    - Implemented comprehensive Rest API documentation utilizing go-swagger and swaggo library, ensuring clarity and ease of use for developers.
                   </p>
                   <p className="my-1">
-                    - Integrated fly fliter allowing users to filter to any
-                    challenges and fixed unit test error{" "}
-                    <a
-                      href="https://github.com/juice-shop/juice-shop/pull/1998"
-                      className="text-blue-600"
-                    >
-                      PR Link
-                    </a>
-                    .
+                    - Elevated the backend test coverage from 0% to 25.48% for GRPC and REST handlers, utilizing the Go 
+                    testing library to enhance system reliability and performance
                   </p>
                   <p className="my-1">
-                    - Added empty user registation challenge for ctf player.{" "}
-                    <a href="" className="text-blue-600">
-                      PR Link
-                    </a>
-                    .
+                    - Enhanced frontend test coverage from 0% to 30.36%, focusing on web views components through adept use of the React testing library
+                  </p>
+                  <p className="my-1">
+                    - Led the migration of code architecture to an interface model, optimizing system structure allowing to write efficient and maintainable test cases.
+                  </p>
+                  <p className="my-1">
+                    - Optimized GraphQL handlers, significantly boosting performance and user experience in data management and retrieval
                   </p>
                 </div>
               </div>
 
               <div className="content-card my-5 px-4 py-5 border-2 border-blue-500 shadow-lg hover:border-purple-500 hover:shadow-2xl">
                 <div className="text-lg font-bold mb-1">
-                  Open Source Developer
+                  Software Engineer Intern
                 </div>
                 <a
                   href="https://meshery.io/"
@@ -410,7 +402,7 @@ export default function Home() {
                       d="M2.25 21h19.5m-18-18v18m10.5-18v18m6-13.5V21M6.75 6.75h.75m-.75 3h.75m-.75 3h.75m3-6h.75m-.75 3h.75m-.75 3h.75M6.75 21v-3.375c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21M3 3h12m-.75 4.5H21m-3.75 3.75h.008v.008h-.008v-.008zm0 3h.008v.008h-.008v-.008zm0 3h.008v.008h-.008v-.008z"
                     ></path>
                   </svg>
-                  <div>Meshery</div>
+                  <div>Layer, CNCF - Meshery</div>
                 </a>
                 <div className="flex flex-col-reverse sm:flex-row sm:justify-between text-sm text-gray-500">
                   <div className=" flex items-center space-x-2 mb-1">
@@ -431,35 +423,88 @@ export default function Home() {
                         ></path>
                       </svg>
                     </div>
-                    <div>March 2023 - Present</div>
+                    <div>July 2023 - September 2023</div>
                   </div>
                 </div>
                 <div className="text-sm mt-2 text-gray-600">
                   <p className="my-1">
-                    - Working on changing api docs generation from swagger to
-                    redoclys{" "}
-                    <a
-                      href="https://github.com/meshery/meshery/pull/7534"
-                      className="text-blue-600"
-                    >
-                      PR Link
-                    </a>
+                    - Worked on the CNCF project project Meshery.
                   </p>
                   <p className="my-1">
-                    - Working on fixing end2end cypress test.
-                    <a
-                      href="https://github.com/meshery/meshery/pull/7658"
-                      className="text-blue-600"
-                    >
-                      PR Link
-                    </a>
+                    - Developed APIs to support new features and enhanced existing endpoints to ensure consistency.
                   </p>
                   <p className="my-1">
-                    - Helped newcomers integrate the community. 🙂.
+                    - Wrote a manifest file for Prometheus deployment and setup communication between Prometheus and Node
+                    exporter to scrape metrics from the running cluster.
+                  </p>
+                  <p className="my-1">
+                    - Migrated API documentation from Swagger to Redocly and added workflow to enable new release of the
+                    documentation whenever changes are being made..
+                  </p>
+                </div>
+              </div>
+
+              <div className="content-card my-5 px-4 py-5 border-2 border-blue-500 shadow-lg hover:border-purple-500 hover:shadow-2xl">
+                <div className="text-lg font-bold mb-1">
+                  Backend Engineer
+                </div>
+                <a
+                  href="https://www.linkedin.com/company/sheba-plastic/?originalSubdomain=rw"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="linkstyle flex text-black text-sm w-fit mb-1 space-x-2"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    aria-hidden="true"
+                    className="w-4"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M2.25 21h19.5m-18-18v18m10.5-18v18m6-13.5V21M6.75 6.75h.75m-.75 3h.75m-.75 3h.75m3-6h.75m-.75 3h.75m-.75 3h.75M6.75 21v-3.375c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21M3 3h12m-.75 4.5H21m-3.75 3.75h.008v.008h-.008v-.008zm0 3h.008v.008h-.008v-.008zm0 3h.008v.008h-.008v-.008z"
+                    ></path>
+                  </svg>
+                  <div>Sheba Plastic</div>
+                </a>
+                <div className="flex flex-col-reverse sm:flex-row sm:justify-between text-sm text-gray-500">
+                  <div className=" flex items-center space-x-2 mb-1">
+                    <div>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke-width="1.5"
+                        stroke="currentColor"
+                        aria-hidden="true"
+                        className="w-4"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 012.25-2.25h13.5A2.25 2.25 0 0121 7.5v11.25m-18 0A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75m-18 0v-7.5A2.25 2.25 0 015.25 9h13.5A2.25 2.25 0 0121 11.25v7.5m-9-6h.008v.008H12v-.008zM12 15h.008v.008H12V15zm0 2.25h.008v.008H12v-.008zM9.75 15h.008v.008H9.75V15zm0 2.25h.008v.008H9.75v-.008zM7.5 15h.008v.008H7.5V15zm0 2.25h.008v.008H7.5v-.008zm6.75-4.5h.008v.008h-.008v-.008zm0 2.25h.008v.008h-.008V15zm0 2.25h.008v.008h-.008v-.008zm2.25-4.5h.008v.008H16.5v-.008zm0 2.25h.008v.008H16.5V15z"
+                        ></path>
+                      </svg>
+                    </div>
+                    <div>May 2023 - August 2023</div>
+                  </div>
+                </div>
+                <div className="text-sm mt-2 text-gray-600">
+                  <p className="my-1">
+                    - Migrated the backend server from Firebase to Node.js, enhancing operational efficiency 
+                    and scalability for improved system performance, and wrote CI workflows for software maintenance and reliability.
+                  </p>
+                  <p className="my-1">
+                    - Added unit test cases for the Rest API reaching a test coverage of 72% using mocha chai library.
                   </p>
                 </div>
               </div>
             </div>
+            
             <div>
               <div className="content-card my-5 px-4 py-5 border-2 border-blue-500 shadow-lg hover:border-purple-500 hover:shadow-2xl">
                 <div className="text-lg font-bold mb-1">
@@ -620,6 +665,47 @@ export default function Home() {
           <div id="projects">
             <h2 className="mt-8 mb-4 text-2xl font-bold">Projects</h2>
             <div>
+            <section className="content-card group my-5 sm:grid grid-cols-8 items-center order-2 border-blue-500 shadow-lg hover:border-purple-500 hover:shadow-2xl">
+                <div className="col-span-3 h-full w-full prose-img:my-0">
+                  <Image
+                    alt="SigmaFit"
+                    src={smarteNote2}
+                    width="1400"
+                    height="800"
+                    decoding="async"
+                    data-nimg="future"
+                    className="sm:grayscale sm:group-hover:grayscale-0 border object-cover h-full"
+                    loading="lazy"
+                  />
+                </div>
+
+                <div className="col-span-5 px-4 py-5">
+                  <a
+                    href="https://github.com/wubeshetA/SmartNote"
+                    target="_blank"
+                    className="mb-1 text-lg text-gray-600 hover:text-blue-700 font-bold"
+                    rel="noreferrer"
+                  >
+                    <span className="border-b border-dashed hover:border-solid border-b-gray-300">
+                      SmarteNote
+                    </span>
+                  </a>
+                  <div className="text-sm mt-1">
+                    Flutter｜ Firebase | SuperBase | GoogleSpeech to Text API
+                  </div>
+                  <div className="text-sm text-gray-600">
+                    <p className="last:mb-0 my-1">
+                    - Developed a mobile application using Flutter serving with Google Speech to text API and OpenAI API for
+                    generating quizzes and notes from physical classes.
+                    
+                    </p>
+                    <p className="last:mb-0 my-1">
+                    - Implemented a feature for extended audio recording, enabling users to record audio beyond 1 minute and integrated
+                    an audio file upload feature, providing users with the flexibility to upload pre-recorded audio.
+                    </p>
+                  </div>
+                </div>
+              </section>
               <section className="content-card group my-5 sm:grid grid-cols-8 items-center order-2 border-blue-500 shadow-lg hover:border-purple-500 hover:shadow-2xl">
                 <div className="col-span-3 h-full w-full prose-img:my-0">
                   <Image
