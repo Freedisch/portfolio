@@ -5,10 +5,10 @@ export default function Banner() {
     <div className="bg-indigo-600">
       <div className="max-w-screen-xl mx-auto px-4 py-3 text-white sm:text-center md:px-8">
         <p className="font-medium">
-          Read my new blog post on my internship experience with the CNCF
-          project LitmusChaos!{" "}
+          Read my new blog post on my work on Test Cases Strategies for CNCF -
+          LitmusChaos!{" "}
           <a
-            href="https://dev.to/freedisch_10/embarking-on-a-professional-growth-adventure-insights-from-my-lfx-mentorship-program-at-litmuschaos-5cbc"
+            href="https://www.cncf.io/blog/2023/12/27/embarking-on-a-professional-growth-adventure-insights-from-my-lfx-mentorship-program-with-litmuschaos/"
             className="font-semibold underline duration-150 hover:text-indigo-100 inline-flex items-center gap-x-1"
           >
             Read more
