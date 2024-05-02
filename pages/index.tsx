@@ -710,15 +710,12 @@ export default function Home() {
                     </div>
                     <div className="text-sm text-gray-600">
                       <p className="last:mb-0 my-1">
-                        - Developed a mobile application using Flutter serving
-                        with Google Speech to text API and OpenAI API for
-                        generating quizzes and notes from physical classes.
-                      </p>
-                      <p className="last:mb-0 my-1">
-                        - Implemented a feature for extended audio recording,
-                        enabling users to record audio beyond 1 minute and
-                        integrated an audio file upload feature, providing users
-                        with the flexibility to upload pre-recorded audio.
+                        - Built a React-based UI library that helps you move
+                        fast during ui development with both high-level and low
+                        styling allowing you to extract the style of the
+                        different components. Allowing you to boost productivity
+                        and create visually captivating interfaces with a short
+                        among of time.
                       </p>
                     </div>
                   </div>
@@ -739,29 +736,25 @@ export default function Home() {
 
                   <div className="col-span-5 px-4 py-5">
                     <a
-                      href="https://github.com/wubeshetA/SmartNote"
+                      href="https://github.com/Freedisch/safetycall"
                       target="_blank"
                       className="mb-1 text-lg text-gray-600 hover:text-blue-700 font-bold"
                       rel="noreferrer"
                     >
                       <span className="border-b border-dashed hover:border-solid border-b-gray-300">
-                        SmarteNote
+                        SafetyCall
                       </span>
                     </a>
                     <div className="text-sm mt-1">
-                      Flutter｜ Firebase | SuperBase | GoogleSpeech to Text API
+                      Flutter｜ Python | OpenCV
                     </div>
                     <div className="text-sm text-gray-600">
                       <p className="last:mb-0 my-1">
-                        - Developed a mobile application using Flutter serving
-                        with Google Speech to text API and OpenAI API for
-                        generating quizzes and notes from physical classes.
-                      </p>
-                      <p className="last:mb-0 my-1">
-                        - Implemented a feature for extended audio recording,
-                        enabling users to record audio beyond 1 minute and
-                        integrated an audio file upload feature, providing users
-                        with the flexibility to upload pre-recorded audio.
+                        - Code Extreme Hackathon winner with SafetyCall, a
+                        camera-based platform that uses computer vision and
+                        cloud-based machine-learning algorithms to detect signs
+                        of seizure and send notifications to designated
+                        emergency contacts.
                       </p>
                     </div>
                   </div>
