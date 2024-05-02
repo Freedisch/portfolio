@@ -16,6 +16,7 @@ import smarteNote from "../public/mobile.png";
 import smarteNote2 from "../public/mobiletest.png";
 import Banner from "./components/Banner";
 import endui from "../public/endui.png";
+import safetycall from "../public/safetycall.png";
 
 export default function Home() {
   return (
@@ -724,7 +725,7 @@ export default function Home() {
                   <div className="col-span-3 h-full w-full prose-img:my-0">
                     <Image
                       alt="SigmaFit"
-                      src={smarteNote2}
+                      src={safetycall}
                       width="1400"
                       height="800"
                       decoding="async"
@@ -755,6 +756,12 @@ export default function Home() {
                         cloud-based machine-learning algorithms to detect signs
                         of seizure and send notifications to designated
                         emergency contacts.
+                      </p>
+                      <p className="last:mb-0 my-1">
+                        - worked on the Backend to develop both the API
+                        connections for the monitoring system and the AI model
+                        to capture the User movements and determine when the
+                        user has a seizure.
                       </p>
                     </div>
                   </div>
