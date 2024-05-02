@@ -15,6 +15,7 @@ import oppimage from "../public/Screenshot 2023-05-05 164148.png";
 import smarteNote from "../public/mobile.png";
 import smarteNote2 from "../public/mobiletest.png";
 import Banner from "./components/Banner";
+import endui from "../public/endui.png";
 
 export default function Home() {
   return (
@@ -679,6 +680,92 @@ export default function Home() {
             <div id="projects">
               <h2 className="mt-8 mb-4 text-2xl font-bold">Projects</h2>
               <div>
+                <section className="content-card group my-5 sm:grid grid-cols-8 items-center order-2 border-blue-500 shadow-lg hover:border-purple-500 hover:shadow-2xl">
+                  <div className="col-span-3 h-full w-full prose-img:my-0">
+                    <Image
+                      alt="SigmaFit"
+                      src={endui}
+                      width="1400"
+                      height="800"
+                      decoding="async"
+                      data-nimg="future"
+                      className="sm:grayscale sm:group-hover:grayscale-0 border object-cover h-full"
+                      loading="lazy"
+                    />
+                  </div>
+
+                  <div className="col-span-5 px-4 py-5">
+                    <a
+                      href="https://www.npmjs.com/package/@endui/react"
+                      target="_blank"
+                      className="mb-1 text-lg text-gray-600 hover:text-blue-700 font-bold"
+                      rel="noreferrer"
+                    >
+                      <span className="border-b border-dashed hover:border-solid border-b-gray-300">
+                        EndUI
+                      </span>
+                    </a>
+                    <div className="text-sm mt-1">
+                      React｜ Typescript | Tailwind
+                    </div>
+                    <div className="text-sm text-gray-600">
+                      <p className="last:mb-0 my-1">
+                        - Developed a mobile application using Flutter serving
+                        with Google Speech to text API and OpenAI API for
+                        generating quizzes and notes from physical classes.
+                      </p>
+                      <p className="last:mb-0 my-1">
+                        - Implemented a feature for extended audio recording,
+                        enabling users to record audio beyond 1 minute and
+                        integrated an audio file upload feature, providing users
+                        with the flexibility to upload pre-recorded audio.
+                      </p>
+                    </div>
+                  </div>
+                </section>
+                <section className="content-card group my-5 sm:grid grid-cols-8 items-center order-2 border-blue-500 shadow-lg hover:border-purple-500 hover:shadow-2xl">
+                  <div className="col-span-3 h-full w-full prose-img:my-0">
+                    <Image
+                      alt="SigmaFit"
+                      src={smarteNote2}
+                      width="1400"
+                      height="800"
+                      decoding="async"
+                      data-nimg="future"
+                      className="sm:grayscale sm:group-hover:grayscale-0 border object-cover h-full"
+                      loading="lazy"
+                    />
+                  </div>
+
+                  <div className="col-span-5 px-4 py-5">
+                    <a
+                      href="https://github.com/wubeshetA/SmartNote"
+                      target="_blank"
+                      className="mb-1 text-lg text-gray-600 hover:text-blue-700 font-bold"
+                      rel="noreferrer"
+                    >
+                      <span className="border-b border-dashed hover:border-solid border-b-gray-300">
+                        SmarteNote
+                      </span>
+                    </a>
+                    <div className="text-sm mt-1">
+                      Flutter｜ Firebase | SuperBase | GoogleSpeech to Text API
+                    </div>
+                    <div className="text-sm text-gray-600">
+                      <p className="last:mb-0 my-1">
+                        - Developed a mobile application using Flutter serving
+                        with Google Speech to text API and OpenAI API for
+                        generating quizzes and notes from physical classes.
+                      </p>
+                      <p className="last:mb-0 my-1">
+                        - Implemented a feature for extended audio recording,
+                        enabling users to record audio beyond 1 minute and
+                        integrated an audio file upload feature, providing users
+                        with the flexibility to upload pre-recorded audio.
+                      </p>
+                    </div>
+                  </div>
+                </section>
                 <section className="content-card group my-5 sm:grid grid-cols-8 items-center order-2 border-blue-500 shadow-lg hover:border-purple-500 hover:shadow-2xl">
                   <div className="col-span-3 h-full w-full prose-img:my-0">
                     <Image
